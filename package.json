@@ -1,0 +1,23 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "cucumber": "*",
+    "fluent-assert": "^1.1.0",
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^5.0.4",
+    "puppeteer": "^9.1.1"
+  }
+}
